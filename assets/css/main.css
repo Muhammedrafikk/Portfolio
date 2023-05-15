@@ -721,6 +721,81 @@ h1{position:relative;
 
 /* media Query */
 
+@media (max-width: 375px){
+      .intro{
+        bottom: 140px;
+        /* display: flex;
+        flex-direction: column; */
+      }
+
+      .work{
+         bottom: 140px;
+      }
+
+      .rtyw{
+        position: relative;
+        bottom: 23px;
+
+      }
+      .jer{
+        position: absolute;
+        bottom: 160px;
+      }
+      .about{
+        position: relative;
+        bottom: 22px;
+
+      }
+
+       .cont {
+    width: 70%;
+    height: 11px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 100;
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+ }
+
+
+ .cus, .ya, .ws, .cus, .jsw,  .cus1, .ya1, .ws1, .cus1, .jsw1 {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+    height: 8px;
+    
+ }
+ .wrwe{
+   text-align: left;
+
+ }
+
+ .rty2{
+    text-align: center;
+ }
+
+ .hire{
+    bottom: 70px;
+ }
+ 
+
+
+      
+      
+      /* .intro--options{
+        position: absolute;
+        bottom: 200px;
+      } */
+
+     
+}
+
 
 
 @media (max-width: 900px)
@@ -729,6 +804,7 @@ h1{position:relative;
 .intro--banner img{width:430px}
 .intro--options>a{margin-right:30px}
 .intro--options>a:last-child{margin-right:0}}
+
 @media (max-width: 767px)
     {.intro--banner{height:305px}
     .intro--banner h1{font-size:44px}
@@ -754,7 +830,9 @@ h1{position:relative;
     .intro--banner img{
 
         width: 170px;
-        top: 60px;
+        top: 180px;
+        right: 10px;
+
         
     }
     .tew{
